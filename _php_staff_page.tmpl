@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?pcf-stylesheet path="/_resources/xsl/default.xsl" site="templates" extension="html"?>
+<!DOCTYPE document SYSTEM "http://commons.omniupdate.com/dtd/standard.dtd">
+
+<document>
+	<headcode></headcode>
+	<bodycode></bodycode>
+	<footcode></footcode>
+
+	<!-- com.omniupdate.properties -->
+		<title><!--%echo var="title" --></title>
+	<!-- /com.omniupdate.properties -->
+	<config>
+		<parameter name="pagetype">staff_php</parameter>
+		
+		<parameter name="columns" type="select" group="Everyone" prompt="Number of Columns" alt="How many columns do you want your page to have?">
+		<option value="1col" selected="true">One Column</option>
+		<option value="2col" selected="false">Two Columns</option>
+		<option value="3col" selected="false">Three Columns</option>
+		</parameter>
+		
+		<!-- com.omniupdate.properties -->
+ 		<parameter name="sitemap" type="radio" group="Everyone" prompt="Sitemap" alt="Include page in sitemap?">
+			<option value="yes" selected="true">YES</option>
+			<option value="no" selected="false">NO</option>
+		</parameter>		
+		<!-- /com.omniupdate.properties -->
+		<!-- com.omniupdate.properties -->
+		<parameter name="primarynav" prompt="Primary Nav order" group="Everyone" alt="Order to appear in Primary Navigation."><!--%echo var="primarynav" --></parameter>
+		<!-- /com.omniupdate.properties -->
+	</config>
+	<metadata>
+		<!-- com.omniupdate.properties -->
+			<meta name="description" content="<!--%echo var="description" -->" />
+			<meta name="keywords" content="<!--%echo var="keywords" -->" />
+			<meta name="author" content="<!--%echo var="author" -->" />
+		<!-- /com.omniupdate.properties -->
+	</metadata>
+	<maincontent>
+
+		<column_one>
+		<!-- com.omniupdate.div  label="column_one"  group="Everyone"  button="707"  break="break" -->
+		<!-- com.omniupdate.editor csspath="/includes/ou/editor/1column/column_one.css" cssmenu="/includes/ou/editor/content.txt" width="955" -->
+		<!-- /com.omniupdate.div -->
+		</column_one>
+		<column_two>
+		<!-- com.omniupdate.div  label="column_two"  group="Everyone"  button="707"  break="break" -->
+		<!-- com.omniupdate.editor csspath="/includes/ou/editor/1column/column_two.css" cssmenu="/includes/ou/editor/content.txt" width="955" -->
+		<table>
+		<tbody>
+		<tr><th>image</th><th>first Name</th><th>Last Name</th><th>title</th><th>phone</th><th>email or website</th></tr>
+		<tr>
+		<td><img src="/sjsuhome/assets/images/_staff/larry.jpg" alt="Larry Carr" /></td>
+		<td>Larry</td>
+		<td>Carr</td>
+		<td>Associate Vice President for Public Affairs</td>
+		<td>408-924-1166</td>
+		<td>larry.carr@sjsu.edu</td>
+		</tr>
+		<tr>
+		<td><img src="/sjsuhome/assets/images/_staff/mari.jpg" alt="Larry Carr" /></td>
+		<td>Marisela</td>
+		<td>Hernandez</td>
+		<td>Administrative Assistant to the Associate Vice President</td>
+		<td>408-924-1166</td>
+		<td>http://www.sjsu.edu</td>
+		</tr>
+		<tr>
+		<td><img src="/sjsuhome/assets/images/_staff/cyril.jpg" alt="Larry Carr" /></td>
+		<td>Cyril</td>
+		<td>Manning</td>
+		<td>Director, Communications</td>
+		<td>408-904-1166</td>
+		<td>cyril.manning@sjsu.edu</td>
+		</tr>
+		</tbody>
+		</table>
+		<!-- /com.omniupdate.div -->
+		</column_two>
+		<column_three>
+		<!-- com.omniupdate.div  label="column_three"  group="Everyone"  button="707"  break="break" -->
+		<!-- com.omniupdate.editor  csspath="/includes/ou/editor/1column/column_three.css"  cssmenu="/_resources/ou/editor/content.txt"  width="955" -->
+		<!-- /com.omniupdate.div -->
+		</column_three>
+	</maincontent>
+</document>

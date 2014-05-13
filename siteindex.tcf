@@ -1,0 +1,14 @@
+<title>New Site Index Page</title>
+
+<variable-list>
+	<variable name="title" prompt="Page Title" alt="Give your index page a title."></variable>
+	<variable name="keywords" prompt="Keywords" rows="2" alt="Words that categorize your new page for search engines."></variable>
+	<variable name="description" prompt="Description" rows="2" alt="A brief description of the page content."></variable>
+	<variable name="author" prompt="Meta Author" alt="Author name to be included in the meta tags."></variable>
+</variable-list>
+
+<template-list>
+	<template prompt-prefix="index page" group="*inherit*" display-group="no" display-overwrite="no" preferred-redirect="yes" filename="siteindex" extension="pcf" display-filename="no" display-extension="no" force-destination="yes" publish="no" >siteindex.tmpl</template>	
+</template-list>
+
+

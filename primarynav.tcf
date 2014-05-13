@@ -1,0 +1,11 @@
+<title>New Primary Nav</title>
+
+<variable-list>
+	<variable name="title" prompt="Page Title" alt="Give your primary nav a title.">Homepage</variable>
+</variable-list>
+
+<template-list>
+	<template prompt-prefix="index page" group="*inherit*" display-group="no" display-overwrite="no" preferred-redirect="yes" filename="primarynav" extension="pcf" display-filename="no" display-extension="no" force-destination="yes" publish="no" >primarynav.tmpl</template>	
+</template-list>
+
+

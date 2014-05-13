@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?pcf-stylesheet path="/_resources/xsl/default.xsl" site="templates" extension="html"?>
+<?pcf-stylesheet path="/_resources/xsl/sitemapga.xsl" site="templates" extension="xml" alternate="yes"?>
+<!DOCTYPE document SYSTEM "http://commons.omniupdate.com/dtd/standard.dtd">
+
+<document>
+	<!-- com.omniupdate.properties -->
+		<title><!--%echo var="title" --></title>
+	<!-- /com.omniupdate.properties -->
+	<config>
+		<parameter name="pagetype">siteindex_php</parameter>
+
+		<parameter name="columns" type="select" group="Everyone" prompt="Number of Columns" alt="How many columns do you want your page to have?">
+		<option value="1col" selected="true">One Column</option>
+		<option value="2col" selected="false">Two Columns</option>
+		<option value="3col" selected="false">Three Columns</option>
+		</parameter>
+		<!-- com.omniupdate.properties -->
+ 		<parameter name="sitemap" type="radio" group="Everyone" prompt="Sitemap" alt="Include page in sitemap?">
+			<option value="yes" selected="true">YES</option>
+			<option value="no" selected="false">NO</option>
+		</parameter>		
+		<!-- /com.omniupdate.properties -->
+	</config>
+	<metadata>
+		<!-- com.omniupdate.properties -->
+			<meta name="description" content="<!--%echo var="description" -->" />
+			<meta name="keywords" content="<!--%echo var="keywords" -->" />
+			<meta name="author" content="<!--%echo var="author" -->" />
+		<!-- /com.omniupdate.properties -->
+	</metadata>
+
+</document>

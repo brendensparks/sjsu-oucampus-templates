@@ -1,0 +1,11 @@
+<title>New Redirect</title>
+
+<variable-list>
+	<variable name="target" prompt="Destination URL" alt="Please enter the Fully qualified url to page vistors will be redirected to. (example. http://www.yoursite.com/dir/dir/dir/page.html)"></variable>
+	<variable name="dirname" prompt="Short Name" alt="A single word to represent your shortened url. (example. http://www.yoursite.com/rd/shortname/)."></variable>
+	
+</variable-list>
+
+<template-list>
+	<template prompt-prefix="Existing Redirect File" publish="yes" redirect="no" display-group="no" group="everyone" force-destination="yes" destination="{directory/}{dirname}" display-filename="no" filename="index" extension="pcf">_redirect.tmpl</template>
+</template-list>
