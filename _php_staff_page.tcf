@@ -1,4 +1,4 @@
-<title>New Staff Directory Page</title>
+<!-- com.omniupdate.properties --><title>PHP Staff Directory</title><!-- /com.omniupdate.properties -->
 
 <variable-list>
 	<variable name="dirname" prompt="Directory Name" alt="Give your directory a name."></variable>

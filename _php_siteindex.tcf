@@ -1,4 +1,4 @@
-<title>New Site Index Page</title>
+<!-- com.omniupdate.properties --><title>PHP Site Index</title><!-- /com.omniupdate.properties -->
 
 <variable-list>
 	<variable name="title" prompt="Page Title" alt="Give your index page a title."></variable>

@@ -1,4 +1,4 @@
-<title>New Form Page</title>
+<!-- com.omniupdate.properties --><title>PHP Forms</title><!-- /com.omniupdate.properties -->
 
 <variable-list>
 	<variable name="dirname" prompt="Directory Name" alt="Give your directory a name."></variable>

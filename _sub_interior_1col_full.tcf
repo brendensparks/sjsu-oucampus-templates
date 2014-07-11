@@ -1,4 +1,4 @@
-<title>New Full Width One Column Interior Page</title>
+<!-- com.omniupdate.properties --><title>Full Width</title><!-- /com.omniupdate.properties -->
 
 <variable-list>
 	<variable name="dirname" prompt="Directory Name" alt="Give your directory a name."></variable>

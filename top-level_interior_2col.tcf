@@ -1,4 +1,4 @@
-<title>New Two Column Page</title>
+<!-- com.omniupdate.properties --><title>Top Interior 2 Columns</title><!-- /com.omniupdate.properties -->
 
 <variable-list>
 	<variable name="dirname" prompt="Directory Name" alt="Give your directory a name."></variable>

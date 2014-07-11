@@ -1,4 +1,4 @@
-<title>New Redirect</title>
+<!-- com.omniupdate.properties --><title>Redirect</title><!-- /com.omniupdate.properties -->
 
 <variable-list>
 	<variable name="target" prompt="Destination URL" alt="Please enter the Fully qualified url to page vistors will be redirected to. (example. http://www.yoursite.com/dir/dir/dir/page.html)"></variable>

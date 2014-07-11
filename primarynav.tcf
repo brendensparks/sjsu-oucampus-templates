@@ -1,4 +1,4 @@
-<title>New Primary Nav</title>
+<!-- com.omniupdate.properties --><title>Primary Nav</title><!-- /com.omniupdate.properties -->
 
 <variable-list>
 	<variable name="title" prompt="Page Title" alt="Give your primary nav a title.">Homepage</variable>
